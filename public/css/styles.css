@@ -1,0 +1,95 @@
+body{
+    line-height: 1.50;
+}
+
+.content{
+    padding-top: 5px;
+    padding-left: 20px;
+    height: 550px;
+    /* height: auto; */
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+
+}
+
+.content1{
+    padding: 4px;
+    /* height: 520px; */
+    height: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+.new_admin{
+
+        padding: 4px;
+        height: 520px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.content2{
+    padding-top: 5px;
+    padding-left: 15px;
+    height: auto;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.sidebar {
+     width: 250px;
+     height: auto;
+     font-family: Arial, Helvetica, sans-serif; 
+ }
+
+ 
+ @media (max-width : 600px){
+     .sidebar{ color: aqua;}
+    
+     } 
+    
+ ul.selected{
+     padding-left: 5px;
+     list-style: none;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ }
+ ul.pages{
+     font-weight: normal;
+     list-style: square;
+     font-family: Arial, Helvetica, sans-serif;
+ }  
+ 
+li.subject{
+     font-weight: bold;
+     font-family: Arial, Helvetica, sans-serif;
+ } 
+
+ .message{
+    border-radius: 5px solid #8d0d19;
+     font-weight: bold;
+     color: purple;
+    
+ }
+
+ .error{
+  color:#8d0d19;
+  border-radius: 2px solid #8d0d19;
+  margin:1em 0;
+  padding: 1em;
+ }
+
+ .error ul{
+     padding-left: 2em;
+     border-radius: 4px;
+ }
+
+ .footer{
+    background-color: pink;
+    padding:5px;
+    text-align:center;
+    width: 100%;
+}
+
+/* .main{
+    background-color: blue;
+} */
